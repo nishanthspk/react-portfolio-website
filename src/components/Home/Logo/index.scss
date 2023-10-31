@@ -1,0 +1,32 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+  // .nimg {
+  //   width: 100%;
+  //   height: auto;
+  //   background-color: brown!important;
+  // }
+
+  .nimg {
+    height: 80%;
+    width: 100%;
+    opacity: 0;
+    
+    // transform: rotateZ(30deg) !important;
+    z-index: 1;
+  }
+}
+
+.svg-container {
+  stroke: #ffd700;
+  stroke-width: 10;
+}
